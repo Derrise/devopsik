@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    image: adelchanov-dias-devops
+    container_name: adelchanov-dias-container
+    environment:
+      STUDENT_NAME: Dias
+      STUDENT_SURNAME: Adelchanov
+      STUDENT_GROUP: IT2-2313
+      STUDENT_ID: "37351"
